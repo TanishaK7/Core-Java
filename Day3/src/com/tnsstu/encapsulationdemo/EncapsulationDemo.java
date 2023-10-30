@@ -7,6 +7,7 @@ public class EncapsulationDemo {
 		oop.setSerialNo(01);
 		oop.setName("ARJUN");
 		oop.setAge(20);
+        oop.setCity("Mumbai");
 
         System.out.println(oop);
 
@@ -15,11 +16,10 @@ public class EncapsulationDemo {
 		oop1.setSerialNo(02);
 		oop1.setName("SHRUTI");
 		oop1.setAge(21);
+        oop1.setCity("Navi-Mumbai");
 
         System.out.println(oop1);
-
-
-
+        
     }
     
 }
