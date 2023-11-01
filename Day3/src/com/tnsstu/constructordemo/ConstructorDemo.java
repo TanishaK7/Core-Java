@@ -17,13 +17,13 @@ public class ConstructorDemo {
 		int phone;
 	    String city;
 
-		System.out.println("Enter name");
+		System.out.println("Enter name: ");
 	    name=sc.next(); 
-	    System.out.println("Enter id");
+	    System.out.println("Enter id: ");
 	    id=sc.nextInt(); 
-	    System.out.println("Enter Phone no");
+	    System.out.println("Enter Phone no: ");
 	    phone=sc.nextInt(); 
-		System.out.println("Enter city");
+		System.out.println("Enter city: ");
 	    city=sc.next();  
 	    
 	    Customer cust3=new Customer(name,id,phone,city);
