@@ -1,7 +1,7 @@
+
 package com.tnsstu.constructordemo;
 
 public class Customer {
-
     // data members
 	private String customerName;
 	private int customerId;
@@ -39,13 +39,26 @@ public class Customer {
         this.customerId = customerId;
     }
 
+    public float getCustomerPh() {
+        return customerPh;
+    }
 
-    //toString-object class
+    public void setCustomerPh(float customerPh) {
+        this.customerPh = customerPh;
+    }
+
+    public String getCustomerCity() {
+        return customerCity;
+    }
+
+    public void setCustomerCity(String customerCity) {
+        this.customerCity = customerCity;
+    }
+
+    //tostring object class
     @Override
     public String toString() {
         return "Customer [customerName=" + customerName + ", customerId=" + customerId + ", customerPh=" + customerPh
                 + ", customerCity=" + customerCity + "]";
     }
-
-    
 }
