@@ -3,7 +3,7 @@ package com.tnsstu.constructordemo;
 
 public class Customer {
     // data members
-	private String customerName;
+    private String customerName;
 	private int customerId;
 	private float customerPh;
     private String customerCity;
