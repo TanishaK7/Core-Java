@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class ConstructorDemo {
 	public static void main(String[] args) {
-		Customer cust1=new Customer();
-		System.out.println(cust1);
+		Customer cust1=new Customer(); 
+		System.out.println(cust1);  //default will be called
 		
 		Customer cust2=new Customer("Tanisha",01,983368718,"mumbai");
-		System.out.println(cust2);
+		System.out.println(cust2);  //parameterized will be called
 		
 		//scanner class to accept user input
 		Scanner sc=new Scanner(System.in);
@@ -37,6 +37,9 @@ public class ConstructorDemo {
 
 
 	    System.out.println(cust4);
+
+		sc.close();
+		
 	}
 	    
 }
